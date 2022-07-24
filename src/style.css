@@ -1,0 +1,55 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+  
+}
+.buttons button{
+    border: none;
+    margin-top: 10px;
+
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: 800;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card{
+
+font: 100px;
+color: aqua;
+background-color: black;
+border: none;
+width: 70px;
+height: 30px;
+font: optional;
+text-decoration-line: none;
+
+}
+.home{
+  color: aqua;
+  border: none;
+  width: 70px;
+height: 30px;
+font: optional;
+text-decoration-line: none;
+}
+
+.lin{
+display: flex;
+flex-direction: row;
+font-size: x-large;
+margin-top: 10px;
+margin-left: 30px;
+background-color: black;
+color: brown;
+border: 80px;
+justify-content: center;
+align-items: center;
+margin-right: 20px;
+padding: 20px;
+margin-right: 10 px;
+text-decoration-line:  none;
+word-spacing: 50px;
+flex-wrap: wrap;
+}

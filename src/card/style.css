@@ -1,0 +1,58 @@
+.car{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 20px;
+
+justify-items: right;
+justify-content: space-between;
+
+}
+.image{
+    height: 250px;
+   width: 220PX;
+}
+
+
+
+.car2 .pa{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: aquamarine;
+width: 90px;
+
+}
+.car2 h {
+   margin: 15px;
+    font-weight: 200px;
+    color: brown;
+    font-style: inherit;
+    /* animation: amer 2.5s linear  infinite */
+    ;
+    font-size: x-large;
+}
+
+@keyframes amer {
+
+0%{
+    transform: rotate(0);
+}
+
+50%{
+    transform: rotate(90deg);
+   
+    color: blueviolet;
+}
+
+100%{
+    transform: rotate(180deg);
+}
+
+
+}
+
+
